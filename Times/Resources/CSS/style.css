@@ -1,0 +1,168 @@
+HTML {font-family:Verdana;
+}
+
+header {font-family: Verdana;
+font-size: 14px;
+font-weight: bold;
+display: flex;
+position: fixed;
+align-items: center;
+border-bottom: 1px solid black;
+margin-top: -10px;
+width: 100%;
+background-size: cover;
+z-index: 5;
+
+}
+
+.logo {
+  color: MediumAquamarine;
+  display: flex;
+}
+.logo p {
+  padding-left: 5px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  text-align: right;
+}
+nav a {
+  color: black;
+}
+
+main {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+  padding-top: 0px;
+  margin-left:10px;
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  flex-wrap: wrap;
+
+}
+ #phish h5 {
+  font-family: Georgia;
+  display: flex;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  background-image: url("../../Resources/Images/img-story-main.png");
+  height: 300px;
+}
+
+#phish {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#orca {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  flex-direction: column;
+}
+
+#earth h4 {
+  background-image: url("../../Resources/Images/img-girl-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-width: 300px;
+  background-size: cover;
+  text-align: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+#burger{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  flex-direction: column;
+}
+
+#burger h1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0px;
+}
+#camera {
+  background-image: url("../../Resources/Images/img-story-3.png");
+  background-repeat: no-repeat;
+  backgroun-position: center;
+  background-size: cover;
+  background-width: 300px;
+  text-align: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+.column.medium {
+  width: 300px;
+  padding-top: 0px;
+  margin-left:25px;
+  margin-top: 65px;
+}
+#star {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+#star h1 {
+  font-size: 25px;
+  font-family: Georgia;
+}
+
+#cats {
+  font-family: Georgia;
+ font-size: 17px;
+ color: black;
+}
+#cats h4 {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url("../../Resources/Images/img-cat-1.png");
+  height: 300px;
+}
+.column.small {
+  width: 240px;
+  padding-top: 0px;
+  margin-left:10px;
+  margin-top: 65px;
+  flex-direction: column;
+}
+#bites {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+#titles {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  margin-left: auto;
+}
+#titles p {
+  border-bottom: thin solid black;
+}
